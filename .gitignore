@@ -1,0 +1,32 @@
+Here’s the **`.gitignore`** file content for your project:
+
+```
+# Python specific
+*.pyc
+__pycache__/
+.venv/
+
+# AWS CDK specific
+cdk.out/
+node_modules/
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local data files
+data/raw/
+*.json
+*.parquet
+*.csv
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+
+# Temporary files
+*.tmp
+*.bak
+```
